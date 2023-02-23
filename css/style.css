@@ -7,17 +7,37 @@
 main{
     height: 100vh;
     background-color: #083b4c;
+    overflow-y: auto;
 }
 
 .container{
     width: 70%;
     margin: 0 auto;
 }
+
 .list{
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    font-size: 25px;
-    gap: 2.5rem;
+    font-size: 20px;
+    gap: 2.1875rem;
 }
 
+li{
+    width: calc((100% / 10) - 2.1875rem);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.box-fizz{
+    background-color: #0cd6a1;
+}
+.box-buzz{
+    background-color: #ffd166;
+}
+.box-both{
+    background-color: #f0466f;
+}
+.box-std{
+    background-color: #1389b2;
+}

@@ -15,3 +15,7 @@ BONUS 1
 - nel ciclo for 
     -creo una costante elementolista con createElement
     -nei casi dello switch inserico il valore / stringa che dovra essere stampata
+
+BONUS 2
+- creo delle classi in css per i 4 valori
+- nel fine js aggiungo all elemento creato una classe in base ai vari valori assunti
