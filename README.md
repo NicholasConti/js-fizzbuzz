@@ -10,4 +10,8 @@ STEPS:
         - CASO 4(default): il valore della i NON e multiplo di 3/5
                     -stampo il valore di i
 
-
+BONUS 1 
+- creo una costante ul con queryselector
+- nel ciclo for 
+    -creo una costante elementolista con createElement
+    -nei casi dello switch inserico il valore / stringa che dovra essere stampata

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    background-color: #083b4c;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-size: 25px;
+    gap: 2.5rem;
+}
+
